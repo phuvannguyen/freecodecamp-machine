@@ -18,7 +18,7 @@ function Equal() {
     
   } 
   return (
-    <button id="equals" onClick={handleMath}>=</button>
+    <button className="button" id="equals" onClick={handleMath}>=</button>
   )
 }
 

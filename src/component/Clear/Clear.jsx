@@ -8,7 +8,7 @@ function Clear() {
   }
 
   return (
-    <button id="clear" onClick={handleOnClick}>AC</button>
+    <button className="button" id="clear" onClick={handleOnClick}>AC</button>
   )
 }
 

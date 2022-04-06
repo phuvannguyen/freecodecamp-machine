@@ -1,10 +1,11 @@
 import React, {useContext} from 'react'
+import "./Input.css"
 import { numberContext } from '../../App'
 
 function Input() {
   let value = useContext(numberContext);  
   return (
-    <div id="display">{value[0]}</div>
+    <input type="text"  value={value[0]} id="display" />
   )
 }
 

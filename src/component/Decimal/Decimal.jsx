@@ -54,7 +54,7 @@ function Decimal() {
   }
   
   return (
-    <button id="decimal" value="." onClick={handleDecimal}>.</button>
+    <button className="button" id="decimal" value="." onClick={handleDecimal}>.</button>
   )
 }
 

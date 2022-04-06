@@ -1,9 +1,7 @@
 import React, {useContext} from 'react'
 import { numberContext } from '../../App'
 
-function Number() {
-    const numbers = [{number:0, id: "zero"},{number:1, id: "one"},{number:2, id: "two"},{number:3, id: "three"},{number:4, id: "four"}, 
-    {number:5, id: "five"}, {number:6, id: "six"}, {number:7, id: "seven"}, {number:8, id: "eight"},{number:9, id: "nine"}];
+function Number({id, value}) {    
 
     let state = useContext(numberContext);
 
@@ -16,7 +14,7 @@ function Number() {
         } else {
             state[1](state[0] + number);
 
-        }     
+        }    
         
 
 
@@ -24,9 +22,9 @@ function Number() {
 
     
   return (
-      <div>
-          {numbers.map((number) => <button id={number.id} onClick={handleOnClick} value={number.number}>{number.number}</button>)}
-      </div>
+      
+        <button className="button" id={id} onClick={handleOnClick} value={value}>{value}</button>
+      
   )
       
     

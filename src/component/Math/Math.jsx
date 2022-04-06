@@ -1,8 +1,8 @@
 import React, {useContext} from 'react'
 import { numberContext } from '../../App'
 
-function Math() {
-  const maths = [{math:"+", id: "add", value:"+"},{math:"-", id: "subtract", value:"-"},{math:"X", id: "multiply", value: "*"},{math:"/", id: "divide", value: "/"}];
+function Math({value, id, name}) {
+  
   let state = useContext(numberContext);
   const handleMath = (e) => {
     let calculationMath = e.target.value;
@@ -50,7 +50,7 @@ function Math() {
   }
   
   return (
-    <div>{maths.map((math) => <button id={math.id} value={math.value} onClick={handleMath}>{math.math}</button>)}</div>
+    <button className="button" id={id} value={value} onClick={handleMath}>{name}</button>
   )
 }
 
