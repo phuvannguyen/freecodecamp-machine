@@ -18,6 +18,7 @@ The mainly function is calculations:
 2. Subtraction
 3. multiplication
 4. division
+
 Example: 45*9-6+3/2.6 = 400.15384615384613
 
         
