@@ -1,6 +1,5 @@
 # Javascript Calculator
-#### Video Demo:  [Javascript Calculator](https://www.youtube.com/watch?v=SmEqtHH82hk&t=10s)
-#### This is my project link: [Heroku final site](https://javascript-calculator-phu1994.herokuapp.com/)
+#### This is my project link: [Heroku final site](https://javascript-caculator.herokuapp.com/)
 # Description:
 ## What is Javascript Calculator
 As we know, the Calculator is a portable device used in our daily life to perform various mathematical functions such as addition, subtraction, multiplication, division, root, etc. To finished CS50 course, I make a calculator project to make again
